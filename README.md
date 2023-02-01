@@ -1,8 +1,30 @@
+#SSH
+
+右键 Git Bash Here
+
 ## config
 ```
 $ git config --global user.name "chenliujin"
 $ git config --global user.email "liujin.chen@qq.com"
 ```
+
+## 生成密钥
+```
+$ cd ~
+$ pwd
+/c/Users/Administrator
+
+$ cd .ssh
+$ ssh-keygen -t rsa -C "liujin.chen@qq.com"
+$ cat id_rsa.pub
+```
+## Github配置SSH
+* 点击用户头像
+* Settings
+* SSH and GPG keys
+* New SSH key
+
+
 
 ## git clone
 ```
