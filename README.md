@@ -9,11 +9,14 @@ $ git config --global user.email "liujin.chen@qq.com"
 ```
 
 ## 生成密钥
+右键 -> Git Bash 
+
 ```
 $ cd ~
 $ pwd
 /c/Users/Administrator
 
+$ mkdir .ssh
 $ cd .ssh
 $ ssh-keygen -t rsa -C "liujin.chen@qq.com"
 $ cat id_rsa.pub
